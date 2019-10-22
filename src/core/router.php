@@ -17,6 +17,7 @@ class Router
   {
     $this->prepareURL();
     //var_dump(CONTROLLER . $this->controller . '.php');
+    //var_dump($this->prams);
     if (file_exists(CONTROLLER . $this->controller . '.php')) {
       $this->controller = new $this->controller;
       if (method_exists($this->controller, $this->action)) {
@@ -36,9 +37,9 @@ class Router
       $this->controller = isset($url[0]) ? $url[0] . 'Controller': 'homeController';
       //element two will be the method
       $this->action = isset($url[1]) ? $url[1] : 'index';
-      //removed the controller and method name to get the the params  
+      //removed the controller and method name to get the the params
       unset($url[0], $url[1]);
-      $this->prams = !empty($url) ? : [];
+      $this->prams = !empty($url) ? $url : [];
     }
   }
 }

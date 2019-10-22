@@ -1,11 +1,20 @@
 <?php
 
-class homeController
+/**
+ *
+ *
+ */
+class homeController extends Controller
 {
 
-  public function index ()
+  public function index ($id = '', $quantity = '')
   {
-    echo 'sending to shopping cart view';
+    //echo 'id is'.$id.'name is'.$name;
+    $this->view('home\index', [
+      'id' => $id,
+      'quantity' => $quantity,
+    ]);
+    //var_dump($this);
+    $this->view->render();
   }
-
 }
