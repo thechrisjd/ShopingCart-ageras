@@ -1,1 +1,11 @@
-{1 : {"name" : "Apples", "quanity" : 0}, 2 : {"name" : "Oranges", "quanity" : 0}}
+{
+  1 : {
+    "name" : "Apples",
+    "quanity" : 0
+    },
+  2 :
+    {
+      "name" : "Oranges",
+      "quanity" : 0
+      }
+}

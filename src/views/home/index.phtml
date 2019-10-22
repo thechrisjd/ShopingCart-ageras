@@ -1,10 +1,28 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <h1>hello</h1>
-  </body>
-</html>
+<?php include(VIEW . 'header.phtml'); ?>
+
+  <div class="">
+    <div class="apples">
+      <h1>Apples</h1>
+      <img src="https://www.abelandcole.co.uk/media/2529_17826_z.jpg" alt="delicious apples">
+      <form class="" action="/product/index" method="get">
+          <input type="number" name="quantity" placeholder="how many apples?">
+          <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="oranges">
+      <h1>Oragnes</h1>
+      <img src="https://www.halegroves.com/images/xl/4t-buy-temple-oranges-online.jpg?v=100009962991-2" alt="delicious ornages">
+      <form class="" action="../../product/index" method="get">
+          <input type="number" name="quantity" placeholder="how many oranges?">
+          <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+  <div class="">
+
+  </div>
+
+
+
+<?php include(VIEW . 'footer.phtml'); ?>
