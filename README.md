@@ -12,11 +12,19 @@ You can easily run this by doing: php -S localhost:8000 in the terminal.
 
 
 /////////////////////////
-I didn't manage to complete the project
+**** I'm sorry, I did not manage to complete the project ****
 
---I create the routes
+--I created the routes
 --Implemented controllers
 --Implemented views
 --created a data file
--- connecting the model to the data
--- I stated working on sending this data to the front end. 
+--connecting the model to the data
+--I stated working on sending this data to the front end.
+
+--- In the end I made the MVC architecture
+--- Bu failed to connect the front and back.
+
+--- However I hope you can look past that and see that I have the skills to build amazing stuff
+--- and in the right environment I could grow to become and even better developer.
+
+--- Thnak you for your time 
